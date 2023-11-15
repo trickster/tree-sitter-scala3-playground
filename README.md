@@ -19,4 +19,8 @@ Run the `jextractor.sh` script to generate the bindings. This will create the `c
 
 `scala-cli` does the rest.
 
+```bash
+scala-cli run treesc.sc -cp .
+```
+
 Ensure that you use `JVM 21`, for example `sdk install java 21-tem`.
